@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f1e8;
+  color: #2d241c;
+}
+
+.home {
+  min-height: 100vh;
+}
+
+/* Navbar */
+
+.navbar {
+  height: 70px;
+  padding: 0 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fffdf8;
+  border-bottom: 1px solid #e5ded2;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links button {
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  color: #4a4036;
+}
+
+.nav-links button:hover {
+  color: #b47732;
+}
+
+/* Hero */
+
+.hero {
+  min-height: calc(100vh - 70px);
+  padding: 80px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 64px;
+  line-height: 1.05;
+  margin-bottom: 25px;
+}
+
+.hero-text h1 span {
+  color: #b47732;
+}
+
+.hero-text p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #6b6259;
+  margin-bottom: 30px;
+}
+
+.start-btn {
+  padding: 14px 25px;
+  border: none;
+  border-radius: 8px;
+  background: #b47732;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.start-btn:hover {
+  background: #965f20;
+}
+
+/* Card */
+
+.hero-card {
+  width: 380px;
+  height: 250px;
+  border-radius: 25px;
+  background: #e8dcc8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(60, 45, 30, 0.15);
+}
+
+.hero-card:first-letter {
+  font-size: 80px;
+}
+
+.hero-card h2 {
+  margin-top: 15px;
+  font-size: 28px;
+}
+
+.hero-card p {
+  margin-top: 10px;
+  color: #6b6259;
+}
